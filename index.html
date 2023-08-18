@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head> 
+<body>
+        <table class="table table-dark table-bordered table-striped"  id="main-table">
+            <tr>
+                <th>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>instagram</th>
+                    <th>phone number</th>
+                    <th> action</th>
+                </th>
+            </tr>
+             <tr>
+                <th scope="row">Customer</th>
+                <td >john Doe</td>
+                <td>johndoe1@gmail.com</td>
+                <td >@JohnDoe</td>
+                <td >555-555-5555</td>
+                <td></td>
+            </tr>
+        </table>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+                <label for="name">Name</label>
+            <input type="text" class="form-control" name="facebook" id="name">
+        </div>
+        <div class="col">
+            <label for="email"> Email</label>
+            <input type="text" class="form-control" name="email" id="email">
+        </div>
+        
+        <div class="col">
+            <label for="instagram">instragram</label>
+            <input type="text" class="form-control" name="instagram" id="instagram">
+        </div>
+        <div class="col-5 ">
+            <label for="phone-number">phone-number</label>
+            <input type="text" class="form-control" name="phone-number" id="phone-number">
+        </div>
+                <button  class="btn btn-outline-primary" id="btn">submit</button>
+        </div>
+    </div>    
+    
+    <script src="main.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
